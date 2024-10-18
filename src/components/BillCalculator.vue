@@ -35,7 +35,33 @@ const {
 </script>
 
 <style scoped>
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h1 {
   text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px; 
+  margin-bottom: 15px; 
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+}
+
+h2 {
+  margin-top: 20px; 
+  font-size: 1.5rem; 
 }
 </style>
+

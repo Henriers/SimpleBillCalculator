@@ -13,6 +13,7 @@ import BillCalculator from './components/BillCalculator.vue';
 <style>
 .app {
   height: 100vh;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,5 +25,11 @@ import BillCalculator from './components/BillCalculator.vue';
   text-align: center;
   justify-content: center;
   align-items: center;
+  border-radius: 10px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  padding: 20px; 
+  background-color: white; 
+  width: 100vh; 
+  margin: 0 20px;
 }
 </style>

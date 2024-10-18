@@ -8,7 +8,7 @@ describe('BillCalculator', () => {
     expect(wrapper.find('h1').text()).toBe('Bill Calculator');
   });
 
-  it('calculates total correctly', async () => {
+  it('calculates default currency total correctly', async () => {
     const wrapper = mount(BillCalculator);
     const priceInput = wrapper.find('#price');
     const tipInput = wrapper.find('#tip');
@@ -37,7 +37,7 @@ describe('BillCalculator', () => {
     expect(tipValue).toBe('');
   });
 
-  it('changes currency and updates total correctly', async () => {
+  it('change currency and updates total correctly', async () => {
     const wrapper = mount(BillCalculator);
     const currencySelect = wrapper.find('#currency');
     const priceInput = wrapper.find('#price');
